@@ -1,0 +1,60 @@
+- model: films.movie
+  pk: 1
+  fields:
+    name: Vykoupení z věznice Shawshank
+    year: 1994
+    description: Nejlépe hodnocený film
+- model: films.movie
+  pk: 2
+  fields:
+    name: Forrest Gump
+    year: 1994
+    description: Poněkud prostoduchý Forrest Gump, vyzbrojen užitečnými radami své matky, se vydává na pouť životem, který mu připraví nejedno překvapení. Mnoho hořkých, ale také nádherných chvil... Mladý muž jménem Forrest Gump sedí na zastávce autobusu a každému, kdo si přisedne, vypráví o svém životě. Poněkud jednoduchý chlapec se narodil v Alabamě, kde žil jen s matkou, která mu dala mnoho dobrých rad do života. Především tu, aby si nikdy nenechal od nikoho namluvit, že je jiný než ostatní. Dostala ho dokonce i do normální školy, přestože jí doporučovali zvláštní, vzhledem k jeho nízkému IQ...
+- model: films.movie
+  pk: 3
+  fields:
+    name: Zelená míle
+    year: 1999
+    description:  Paul Edgecomb se vrací ve vzpomínkách do roku 1935, kdy byl zaměstnán v louisianské věznici jako hlavní dozorce. Tenkrát se tam setkal s výjimečným, byť duchem prostým mužem, který byl obdařen nejen velkým srdcem, ale také nadpozemskými schopnostmi. Byl to John Coffey, neprávem odsouzený na smrt za vraždu dvou malých holčiček. V té době trpěl Paul těžkým zánětem močového měchýře a také neměl šanci zbavit se sadistického, všemi nenáviděného dozorce Percyho. Jednoho dne chce s Paulem mluvit Coffey. Když se k němu přiblíží, chytí ho rukou v rozkroku, pak šokovaného Paula pustí a on uvidí, jak černoch vypustil z úst černý oblak, a současně si uvědomí, že jeho bolestivý zánět zmizel. Coffey má zvláštní schopnost, díky které vyléčí ženu správce věznice, ke které ho tajně v noci převezou, dokonce oživí cvičenou myš jednoho vězně, kterou zabil zlomyslný Percy. John Coffey, kterého čeká smrt, přijímá svůj úděl odevzdaně a bez hořkosti.
+- model: films.movie
+  pk: 4
+  fields:
+    name: Sedm
+    year: 1995
+    description:  Dva policisté (Brad Pitt a Morgan Freeman) jsou na stopě geniálního vraha, zodpovědného za sérii děsivých vražd, jejichž oběti spojuje sedm smrtelných hříchů. V jedné z rolí tohoto kvalitního trhilleru, zasazeného do temného města nasáklého bolestí a zkázou, uvidíte také Gwyneth Paltrow. David Fincher (Klub rváčů, Zodiac, Podivuhodný případ Benjamina Buttona) s dokonalou znalostí našich nejhlubších obav pevně svírá otěže akce – fyzické, psychické i spirituální – neodvratně směřující k rozuzlení, které do hloubi otřese i tou nejzatvrzelejší duší.
+- model: films.movie
+  pk: 5
+  fields:
+    name: Přelet nad kukaččím hnízdem
+    year: 1975
+    description:  Předlohou k filmu Přelet nad kukaččím hnízdem byl režiséru Miloši Formanovi román Kena Keseyho, který ho psal při působení v „nemocnici pro veterány“. Snímek se stal největším mezinárodním úspěchem ve Formanově kariéře. V roce 1976 získal Oscara ve všech hlavních kategoriích – za nejlepší film, režii, mužský herecký výkon (Jack Nicholson), ženský herecký výkon (Louise Fletcherová) a scénář. Majitelem filmových a divadelních práv byl 13 let Kirk Douglas, který je postoupil svému synu Michaelovi a tím z něho udělal úspěšného producenta... Zrzavý irský rváč a profesionální karbaník Randle Patrick McMurphy si odpykává trest za opakované násilné napadení a sexuální zneužití. Místo aby se držel v pracovním táboře, hraje pomateného a nechá se poslat do zdánlivého klidu psychiatrické léčebny. Jeho životní elán a silná osobnost se v ústavu brzy střetávají s absolutismem vrchní sestry Ratchedové, která s pomocí trojice lapiduchů tyransky vládne celému ústavu. McMurphy nesnese pohled na ušlápnuté pacienty a brzy v nich probouzí poslední špetku hrdosti a radosti ze života. V zápasu s Velkou sestrou obrátí blázinec doslova vzhůru nohama. Stěny ústavu se otřásají jeho hřmotným smíchem a nespoutaným elánem. Vzpoura McMurphyho ale nemá velkou naději proti síle mašinérie zosobněné Velkou sestrou… Brilantní románová satira Kena Keseyho, mísící v sobě komiku i tragiku, přerůstá v neobyčejně působivém filmovém zpracování v silný protest proti neomezené moci a omezování každého člověka.
+- model: films.movie
+  pk: 6
+  fields:
+    name: Schindlerův seznam
+    year: 1993
+    description:  Hluboce šokující, nemilosrdné drama o noční můře holocaustu, založené na skutečných událostech. Na záchranu 1100 životů obětoval Oskar Schindler veškeré své jmění... Polský Krakov 1939. Židovská obec je vystavována stále se zvyšujícímu tlaku ze strany nacistů. Do této vřavy vstupuje obchodník Oskar Schindler, člen Nacistické strany, velký svůdník a muže vydělávající na válečném utrpení, který dokázal najít v sobě člověka a zachránit ty, kterým už zdánlivě nebylo pomoci... Film Stevena Spielberga je stěžejní dílo světové kinematografie a vítěz sedmi Oscarů, včetně ocenění za Nejlepší film roku a Nejlepší režii.
+- model: films.movie
+  pk: 7
+  fields:
+    name: Kmotr
+    year: 1972
+    description:  Gangsterské drama Kmotr, natočené podle stejnojmenného bestselleru Maria Puza, patří mezi přelomová díla tzv. Nového Hollywoodu, a to jak komerčně, tak umělecky. Příběh newyorské mafiánské rodiny Corleonů, jíž tvrdou rukou šéfuje starý don Vito (Marlon Brando), se odehrává v letech 1945 - 55 a zaznamenává prudký rozmach organizovaného zločinu po skončení druhé světové války. V epických, rozmáchlých obrazech před divákem ožívají osudy italsko-americké rodiny, jež svůj blahobyt založila na hazardu, prostituci, vydírání a zastrašování. Tehdy mladý režisér Francis Ford Coppola, který byl poněkud překvapivě pověřen společností Paramount realizací jednoho z jejích stěžejních projektů (své nepochybně sehrálo i jeho italsko-americké zázemí), musel redukovat některé motivy rozsáhlé předlohy, ovšem podařilo se mu věrně zachovat jejího ducha - přesný popis fungování zločinecké organizace, zachycení její hierarchie, začlenění do tehdejšího společenského vývoje i často kritizované zdůrazňování rodinné soudržnosti. Pevnou dramatickou stavbu scénáře (na němž Coppola spolupracoval s autorem předlohy) podpořilo i režijní ztvárnění, jež čerpalo především z klasických vypravěčských praktik hollywoodských děl 30. let (např. Jih proti Severu), okořeněných soudobým příklonem k realismu, zejména v zobrazování násilí a sexu. Snímek získal tři Oscary - za nejlepší film, scénář podle předlohy a mužský herecký výkon v hlavní roli (Marlon Brando, který svou cenu odmítl převzít). Pro úspěch filmu, který se stal diváckým hitem nejen ve Spojených státech, ale i ve zbytku světa (kromě např. tehdejšího Československa, kde se kvůli údajné glorifikaci zločinu a násilí nesměl promítat, ač Puzova kniha v českém překladu vyšla), bylo klíčové herecké obsazení hlavních úloh dona Vita Corleona a jeho nejmladšího syna Michaela. Vedení Paramountu nesouhlasilo s Marlonem Brandem, na němž mu vedle jeho dobře známé pověsti "obtížného a nespolehlivého herce, jehož poslední filmy byly propadáky", vadilo hlavně to, že je na roli mafiánského patriarchy příliš mladý (v době příprav filmu mu bylo 47 let), a ještě větší odpor dávalo najevo vůči Al Pacinovi, jenž se jim zdál málo známý, příliš obyčejný a především malý. Coppola s oběma herci natočil testy, jež nakonec šéfy Paramountu přesvědčily. Se stejnou pečlivostí režisér obsadil i další role, nejstaršího Corleonova syna, prchlivého Sonnyho (James Caan), jeho slabošského bratra Freda (John Cazale) a conseglieriho Toma Hagena (Robert Duvall). Úlohy Corleonových "vojáků" a dalších gangsterů ztělesnili vesměs málo známí představitelé, kteří dokonale typově odpovídali svým postavám (např. Richard Castellano jako Clemenza nebo Al Lettieri jako Sollozzo). V kreaci Michaelovy neitalské dívky Kay Adamsové zaujala budoucí múza Woodyho Allena Diane Keatonová a Corleonovu týranou dceru Connii ztělesnila pozdější Stalloneova partnerka z Rockyho, Coppolova mladší sestra Talia Shireová. Téměř tříhodinový snímek (který uvádíme, stejně jako další díly trilogie, ve dvou částech) vrcholí slavnou scénou křtu Michaelova synovce (představovaného Coppolovou dcerou Sofií), prostříhaného krvavým vyřizováním účtů s ostatními mafiánskými rodinami, jež znamenalo upevnění moci Corleonova klanu, ale také definitivní převzetí "rodinné firmy" zprvu zdráhavým Michaelem, který se stává důstojným nástupcem zemřelého otce.
+- model: films.movie
+  pk: 8
+  fields:
+    name: Dvanáct rozhněvaných mužů
+    year: 1957
+    description: Dvanáct porotců má jednomyslně rozhodnout o vině či nevině mladého muže, který je obviněn z vraždy svého otce. Porotci jsou průměrní Američané s obyčejnými zájmy a zaměstnáním. V průběžném hlasování jedenáct hlasuje za vinu, jenom porotce číslo 8 je proti...
+- model: films.movie
+  pk: 9
+  fields:
+    name: Nedotknutelní
+    year: 2011
+    description: Ochrnutý a bohatý aristokrat Philippe si za svého nového opatrovníka vybere Drisse, živelného mladíka z předměstí, kterého právě propustili z vězení. Jinými slovy - najde si na tuto práci tu nejméně vhodnou osobu. Podaří se jim však propojit nemožné, Vivaldiho a populární hudbu, serióznost a žoviální vtípky, luxusní obleky a tepláky. Bláznivým, zábavným, silným, neočekávaným a hlavně „nedotknutelným“, přesně takovým se stane jejich přátelství… Komedie s dramatickou zápletkou o tom, že ani od krku po prsty u nohou nepohyblivý člověk odkázaný na pomoc druhých, nemusí ztratit smysl života. A o tom, že i nejméně pravděpodobné spojení melancholického multimilionáře a extrovertního recidivisty může humorně zapůsobit na diváka a může se z něj stát kasovní trhák.
+- model: films.movie
+  pk: 10
+  fields:
+    name: Pelíšky
+    year: 1999
+    description:  A je tu zpět jedna z nejúspěšnějších českých filmových komedií od renomovaných tvůrců - režiséra J. Hřebejka a scenáristy P. Jarchovského s řadou skvělých herců. Vraťme se tedy s oblíbenými postavami k rodinným rituálům, láskám a trapasům odehrávajícím se na sklonku šedesátých let minulého století v jedné pražské čtvrti. Jemná poetika a humorná nadsázka jsou charakteristické pro vyprávění životních osudů tří generací mužů a žen ve zvláštním období našich dějin v roce 1968… V jedné dvoupatrové vile tu žijí dvě rodiny - Šebkovi a Krausovi. Otec Šebek (M. Donutil), prostoduchý, ale dobrácký důstojník z povolání, je zastáncem panujícího režimu a stejně vehementně obhajuje i vlastní neomylnost v roli hlavy rodiny. Elegantní otec Kraus (J. Kodet), bývalý odbojář s trpkou válečnou zkušeností, je naopak zarytým opozičníkem. Také on je přesvědčený o tom, že má za všech okolností pravdu - není proto divu, že se tihle dva nemají zrovna v lásce. Jejich děti - gymnazista Michal (M. Beran) a jeho spolužačka Jindřiška (K. Nováková) - spolu vycházejí docela dobře. I když Michal by byl rád, kdyby ho jeho sousedka brala trochu víc na vědomí. Ta má ale oči pro jiného. Nezbývá mu tedy nic jiného, než aby smutně přihlížel, jak mu jeho první milostné body krade spolužák Elien (O. Brousek). U Šebků a Krausů se zatím střídají rodinné návštěvy, ve vší obřadnosti se tu slaví Vánoce, svatba i nečekaný, bolestný pohřeb. Do zabydlených domácností vtrhnou i některé novodobé vymoženosti v podobě umělohmotných lžiček, nerozbitných sklenic i podivných her pro statečné pionýry. Mládež zatím pokukuje po lákadlech světa kapitalismu a snaží se žít svůj vlastní, na rodičovských autoritách a "velké" historii nezávislý život. V soukromí rodinných pelíšků se tak čas od času odehrají malá dramata názorů a vztahů, která se v paměti jejich účastníků otisknou už nejspíš navždy…
