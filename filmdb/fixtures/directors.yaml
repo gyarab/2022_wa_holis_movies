@@ -1,0 +1,50 @@
+- model: films.director
+  pk: 1
+  fields:
+    name: Steven Spielberg
+    birth_year: 1946
+- model: films.director
+  pk: 2
+  fields:
+    name: Martin Scorsese
+    birth_year: 1942
+- model: films.director
+  pk: 3
+  fields:
+    name: Quentin Tarantino
+    birth_year: 1963
+- model: films.director
+  pk: 4
+  fields:
+    name: Christopher Nolan
+    birth_year: 1970
+- model: films.director
+  pk: 5
+  fields:
+    name: Sofia Coppola
+    birth_year: 1971
+- model: films.director
+  pk: 6
+  fields:
+    name: Denis Villeneuve
+    birth_year: 1967
+- model: films.director
+  pk: 7
+  fields:
+    name: Ava DuVernay
+    birth_year: 1972
+- model: films.director
+  pk: 8
+  fields:
+    name: Greta Gerwig
+    birth_year: 1983
+- model: films.director
+  pk: 9
+  fields:
+    name: Jordan Peele
+    birth_year: 1979
+- model: films.director
+  pk: 10
+  fields:
+    name: Taika Waititi
+    birth_year: 1975
