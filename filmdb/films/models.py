@@ -39,6 +39,7 @@ class Actor(models.Model):
     slug = models.SlugField(default='')
     photo_url = models.CharField(max_length=255, blank=True, null=True)
     description = models.TextField(blank=True, null=True)
+    movies = models.ManyToManyField('Movie', related_name='actors')
 
     def __str__(self):
         return f"{self.name} ({self.birth_year})"

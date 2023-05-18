@@ -58,3 +58,125 @@
     name: Pelíšky
     year: 1999
     description:  A je tu zpět jedna z nejúspěšnějších českých filmových komedií od renomovaných tvůrců - režiséra J. Hřebejka a scenáristy P. Jarchovského s řadou skvělých herců. Vraťme se tedy s oblíbenými postavami k rodinným rituálům, láskám a trapasům odehrávajícím se na sklonku šedesátých let minulého století v jedné pražské čtvrti. Jemná poetika a humorná nadsázka jsou charakteristické pro vyprávění životních osudů tří generací mužů a žen ve zvláštním období našich dějin v roce 1968… V jedné dvoupatrové vile tu žijí dvě rodiny - Šebkovi a Krausovi. Otec Šebek (M. Donutil), prostoduchý, ale dobrácký důstojník z povolání, je zastáncem panujícího režimu a stejně vehementně obhajuje i vlastní neomylnost v roli hlavy rodiny. Elegantní otec Kraus (J. Kodet), bývalý odbojář s trpkou válečnou zkušeností, je naopak zarytým opozičníkem. Také on je přesvědčený o tom, že má za všech okolností pravdu - není proto divu, že se tihle dva nemají zrovna v lásce. Jejich děti - gymnazista Michal (M. Beran) a jeho spolužačka Jindřiška (K. Nováková) - spolu vycházejí docela dobře. I když Michal by byl rád, kdyby ho jeho sousedka brala trochu víc na vědomí. Ta má ale oči pro jiného. Nezbývá mu tedy nic jiného, než aby smutně přihlížel, jak mu jeho první milostné body krade spolužák Elien (O. Brousek). U Šebků a Krausů se zatím střídají rodinné návštěvy, ve vší obřadnosti se tu slaví Vánoce, svatba i nečekaný, bolestný pohřeb. Do zabydlených domácností vtrhnou i některé novodobé vymoženosti v podobě umělohmotných lžiček, nerozbitných sklenic i podivných her pro statečné pionýry. Mládež zatím pokukuje po lákadlech světa kapitalismu a snaží se žít svůj vlastní, na rodičovských autoritách a "velké" historii nezávislý život. V soukromí rodinných pelíšků se tak čas od času odehrají malá dramata názorů a vztahů, která se v paměti jejich účastníků otisknou už nejspíš navždy…
+- model: films.movie
+  pk: 11
+  fields:
+    name: Mamma Mia!
+    year: 2008
+    description: Příběh svatby, která se vyvíjí úplně jinak, než by měla.
+- model: films.movie
+  pk: 12
+  fields:
+    name: Fight Club
+    year: 1999
+    description: Záhadný příběh muže, který se zaplete do nebezpečného podsvětí klubu, kde se fyzicky a duševně vyčerpává.
+- model: films.movie
+  pk: 13
+  fields:
+    name: The Hunger Games
+    year: 2012
+    description: V distopické budoucnosti jsou mladí lidé vybráni, aby se účastnili smrtících her na život a na smrt.
+- model: films.movie
+  pk: 14
+  fields:
+    name: Taxi Driver
+    year: 1976
+    description: Příběh taxikáře, který sklouzne do síly a násilí v ostražitém New Yorku.
+- model: films.movie
+  pk: 15
+  fields:
+    name: Blue Jasmine
+    year: 2013
+    description: Moderní adaptace Tennessee Williamsovy hry "Tramvaj do stanice Touha".
+- model: films.movie
+  pk: 16
+  fields:
+    name: La La Land
+    year: 2016
+    description: Romantický příběh o snu, lásce a cestě za úspěchem ve velkém městě.
+- model: films.movie
+  pk: 17
+  fields:
+    name: The Notebook
+    year: 2004
+    description: Romantický příběh o mladé lásce, která překonává čas a překážky.
+- model: films.movie
+  pk: 18
+  fields:
+    name: Black Swan
+    year: 2010
+    description: Příběh ambiciózní baletky, která se dostává na pokraj svých emocí při přípravě na hlavní roli ve Svanském jezeře.
+- model: films.movie
+  pk: 19
+  fields:
+    name: "Pirates of the Caribbean: The Curse of the Black Pearl"
+    year: 2003
+    description: Pirátské dobrodružství plné akce, humoru a podivuhodných postav.
+- model: films.movie
+  pk: 20
+  fields:
+    name: Lost in Translation
+    year: 2003
+    description: Příběh dvou ztracených duší, které se potkají v Tokiu a začnou společně objevovat smysl života.
+- model: films.movie
+  pk: 21
+  fields:
+    name: The Pursuit of Happyness
+    year: 2006
+    description: Skutečný příběh muže, který bojuje s nepřízní osudu a snaží se najít vlastní štěstí.
+- model: films.movie
+  pk: 22
+  fields:
+    name: Monster
+    year: 2003
+    description: Příběh seriálové vražedkyně Aileen Wuornos, která vraždila muže, aby přežila.
+- model: films.movie
+  pk: 23
+  fields:
+    name: Logan
+    year: 2017
+    description: Poslední dobrodružství mutantního superhrdiny Wolverinea.
+- model: films.movie
+  pk: 24
+  fields:
+    name: Les Misérables
+    year: 2012
+    description: Filmová adaptace slavného muzikálu o lásce, naději a přežití v době francouzské revoluce.
+- model: films.movie
+  pk: 25
+  fields:
+    name: Pulp Fiction
+    year: 1994
+    description: Kultovní kriminální příběh o gangsterech, záhadném aktovkáři a dobrodružstvích ve světě zločinu.
+- model: films.movie
+  pk: 26
+  fields:
+    name: Marley & Me
+    year: 2008
+    description: Příběh rodiny, která se učí láskyplně žít se svým nezbedným a nezdolným psem.
+- model: films.movie
+  pk: 27
+  fields:
+    name: Thor
+    year: 2011
+    description: Příběh mocného boha hromu, který je vyhozen z Asgardu a musí se naučit být hrdinou na Zemi.
+- model: films.movie
+  pk: 28
+  fields:
+    name: Titanic
+    year: 1997
+    description: Romantické drama o tragické lodi Titanic, na které se zrodí zakázaná láska mezi dvěma mladými lidmi z různých společenských vrstev.
+- model: films.movie
+  pk: 29
+  fields:
+    name: Cast Away
+    year: 2000
+    description: Příběh muže, který se po letecké havárii ocitne sám na opuštěném ostrově a musí se naučit přežít a najít způsob, jak se vrátit zpět do civilizace.
+- model: films.movie
+  pk: 30
+  fields:
+    name: Training Day
+    year: 2001
+    description: Příběh mladého policejního nováčka, který se učí tvrdým způsobem od zkušeného a korupčního detektiva.
+
+

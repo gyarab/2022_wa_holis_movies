@@ -1,7 +1,7 @@
 {% extends 'main.html' %}
 
 {% block content %}
-<h1>Homepage GA Movies DB</h1>
+<h1 class='text-center text-uppercase'>GA Movies</h1>
 
 <h2>Filmy</h2>
 <ul>
@@ -17,7 +17,7 @@
     {% endfor %}
 </ul>
 
-<h2>Reziseri</h2>
+<h2>Režiséři</h2>
 <ul>
     {% for director in directors %}
         <li>{{director.name}}</li>

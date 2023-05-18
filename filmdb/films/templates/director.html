@@ -5,7 +5,6 @@
 {% endblock %}
 
 {% block content %}
-<h1>{{director.name}}</h1>
-<h2>{{director.birth_year}}</h2>
+<h1>{{director.name}} ({{director.birth_year}})</h1>
 <p>{{ director.description|safe }}</p>
 {% endblock content %}

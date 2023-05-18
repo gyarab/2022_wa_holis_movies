@@ -1,0 +1,140 @@
+- model: films.actor
+  pk: 1
+  fields:
+    name: Tom Hanks
+    birth_year: 1956
+    description: "Tom Hanks vyhrál ocenění za filmy Forrest Gump, Cast Away a Saving Private Ryan."
+    movies: [2, 29]
+- model: films.actor
+  pk: 2
+  fields:
+    name: Leonardo DiCaprio
+    birth_year: 1974
+    description: "Znamý herec a hrající v Titanic, The Wolf of Wall Street a Inception."
+    movies: [28]
+- model: films.actor
+  pk: 3
+  fields:
+    name: Meryl Streep
+    birth_year: 1949
+    description: "Mezi její známnější filmy patří The Devil Wears Prada, Sophie's Choice a Mamma Mia!"
+    movies: [11]
+- model: films.actor
+  pk: 4
+  fields:
+    name: Brad Pitt
+    birth_year: 1963
+    description: "Mezi jeho známnější filmy patří Fight Club, Ocean's Eleven a Once Upon a Time in Hollywood."
+    movies: [12]
+- model: films.actor
+  pk: 5
+  fields:
+    name: Jennifer Lawrence
+    birth_year: 1990
+    description: "Mezi její známnější filmy patří The Hunger Games series, Silver Linings Playbook a Joy."
+    movies: [13]
+- model: films.actor
+  pk: 6
+  fields:
+    name: Robert De Niro
+    birth_year: 1943
+    description: "Mezi jeho známnější filmy patří Taxi Driver, Raging Bull a Goodfellas."
+    movies: [14]
+- model: films.actor
+  pk: 7
+  fields:
+    name: Cate Blanchett
+    birth_year: 1969
+    description: "Mezi její známnější filmy patří Blue Jasmine, Carol a Elizabeth."
+    movies: [15]
+- model: films.actor
+  pk: 8
+  fields:
+    name: Denzel Washington
+    birth_year: 1954
+    description: "Mezi jeho známnější filmy patří Training Day, Malcolm X a Fences."
+    movies: [30]
+- model: films.actor
+  pk: 9
+  fields:
+    name: Emma Stone
+    birth_year: 1988
+    description: "Mezi její známnější filmy patří La La Land, Easy A a The Help."
+    movies: [16]
+- model: films.actor
+  pk: 10
+  fields:
+    name: Ryan Gosling
+    birth_year: 1980
+    description: "Mezi jeho známnější filmy patří Drive, The Notebook a Blade Runner 2049."
+    movies: [17]
+- model: films.actor
+  pk: 11
+  fields:
+    name: Natalie Portman
+    birth_year: 1981
+    description: "Mezi její známnější filmy patří Black Swan, V for Vendetta a Jackie."
+    movies: [18]
+- model: films.actor
+  pk: 12
+  fields:
+    name: Johnny Depp
+    birth_year: 1963
+    description: "Mezi jeho známnější filmy patří Pirates of the Caribbean, Edward Scissorhands a Finding Neverland."
+    movies: [19]
+- model: films.actor
+  pk: 13
+  fields:
+    name: Scarlett Johansson
+    birth_year: 1984
+    description: "Mezi její známnější filmy patří Lost in Translation, The Avengers series a Marriage Story."
+    movies: [20]
+- model: films.actor
+  pk: 14
+  fields:
+    name: Will Smith
+    birth_year: 1968
+    description: "Mezi jeho známnější filmy patří The Pursuit of Happyness, Men in Black a Ali."
+    movies: [21]
+- model: films.actor
+  pk: 15
+  fields:
+    name: Charlize Theron
+    birth_year: 1975
+    description: "Mezi její známnější filmy patří Monster, Mad Max: Fury Road a Atomic Blonde."
+    movies: [22]
+- model: films.actor
+  pk: 16
+  fields:
+    name: Hugh Jackman
+    birth_year: 1968
+    description: "Mezi jeho známnější filmy patří Wolverine, The Greatest Showman, Les Misérables a Logan."
+    movies: [23]
+- model: films.actor
+  pk: 17
+  fields:
+    name: Anne Hathaway
+    birth_year: 1982
+    description: "Mezi její známnější filmy patří The Devil Wears Prada, Les Misérables a The Princess Diaries."
+    movies: [24]
+- model: films.actor
+  pk: 18
+  fields:
+    name: Samuel L. Jackson
+    birth_year: 1948
+    description: "Mezi jeho známnější filmy patří Pulp Fiction, Snakes on a Plane a The Avengers series."
+    movies: [25]
+- model: films.actor
+  pk: 19
+  fields:
+    name: Jennifer Aniston
+    birth_year: 1969
+    description: "Mezi její známnější filmy patří Rachel Green in the TV show Friends."
+    movies: [26]
+- model: films.actor
+  pk: 20
+  fields:
+    name: Chris Hemsworth
+    birth_year: 1983
+    description: "Mezi jeho známnější filmy patří Thor, The Avengers series a Rush."
+    movies: [27]
