@@ -14,14 +14,16 @@
             <p>{{ movie.description|safe }}</p>
         </div>
     </div>
-    <div class='col'>
-        <div class="card">
-            <div class="card-body">
-                <h5 class="card-title">{{ movie.director.name }} ({{movie.director.birth_year}})</h5>
-                <a href="{% url 'director' movie.director.id %}" class="btn btn-primary">Detail</a>
+    {% if movie.director %}
+        <div class='col'>
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">{{ movie.director.name }} ({{movie.director.birth_year}})</h5>
+                    <a href="{% url 'director' movie.director.id %}" class="btn btn-primary">Detail</a>
+                </div>
             </div>
         </div>
-    </div>
+    {% endif %}
 </div>
 
 <div class='mt-5'>
