@@ -18,4 +18,8 @@ After downloading all requirements you can run project with commands:
 3. `python3 filmdb/manage.py runserver` - starting server
 
 After completing commands mentioned above you can see your application running on
-[http://localhost:8000/](http://localhost:8000/) (admin can be found at same address with `/admin`) 
+[http://localhost:8000/](http://localhost:8000/) (admin can be found at same address with `/admin`)
+
+## Tips
+
+After updating models use `python3 filmdb/manage.py makemigrations`
