@@ -178,5 +178,13 @@
     name: Training Day
     year: 2001
     description: Příběh mladého policejního nováčka, který se učí tvrdým způsobem od zkušeného a korupčního detektiva.
+- model: films.movie
+  pk: 31
+  fields:
+    name: Thor 3
+    year: 2019
+    description: Příběh mocného boha hromu, ...
+    director: 10
+
 
 
