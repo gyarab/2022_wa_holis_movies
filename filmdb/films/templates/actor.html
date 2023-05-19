@@ -9,7 +9,7 @@
 <p>{{ actor.description|safe }}</p>
 
 <div class="row row-cols-1  row-cols-md-2 row-cols-lg-3 g-2">
-    {% for movie in director.movie_set.all %}
+    {% for movie in actor.movies.all %}
     <div class='col'>
         <div class="card h-100">
             <div class="card-body">
