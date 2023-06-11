@@ -15,7 +15,7 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from filmdb.films.views import homepage, movies, directors, actors, actor, movie, director
+from films.views import homepage, movies, directors, actors, actor, movie, director
 
 urlpatterns = [
     path('admin/', admin.site.urls),
