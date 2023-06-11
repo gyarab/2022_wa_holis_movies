@@ -1,0 +1,9 @@
+{
+    "name": "Databáze filmů",
+    "short_name": "FilmDB",
+    "icons": [],
+    "theme_color": "#0173AC",
+    "background_color": "#0173AC",
+    "display": "fullscreen",
+    "start_url": "/"
+}
