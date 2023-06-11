@@ -36,7 +36,7 @@
         <div class="card h-100">
             <img class="card-img-top" src="{% if movie.image_url %}{{movie.image_url}}{% else %}https://place-hold.it/180x100/{% endif %}" alt="Card image cap">
             <div class="card-body">
-                <h5 class="card-title">{{ movie.name }}</h5>
+                <h5 class="card-title">{{ movie.name }} ({% if movie.avg_rating %}{{movie.avg_rating|floatformat:2}}{% else %}0{% endif %}%)</h5>
                 {% for genre in movie.genres.all %}
                     <span class="badge rounded-pill text-bg-primary">{{genre.name}}</span>
                 {% endfor %}

@@ -1,4 +1,6 @@
 from django.db import models
+from django.db.models import Avg
+
 
 class Movie(models.Model):
     name = models.CharField(max_length=200)
@@ -16,6 +18,12 @@ class Movie(models.Model):
     def genres_display(self):
         return ", ".join([i.name for i in self.genres.all()])
 
+    def update_avg_rating(self):
+        avg_rating = self.comment_set.aggregate(Avg('rating'))['rating__avg']
+        self.avg_rating = avg_rating
+        self.save()
+
+
 class Comment(models.Model):
     movie = models.ForeignKey(Movie, on_delete=models.CASCADE)
     author = models.CharField(max_length=255, blank=True)
@@ -23,6 +31,9 @@ class Comment(models.Model):
     rating = models.IntegerField(null=True, blank=True)
     created_at = models.DateTimeField(auto_now_add=True)
 
+    def save(self, *args, **kwargs):
+        super().save(*args, **kwargs)
+        self.movie.update_avg_rating()
 
 class Director(models.Model):
     name = models.CharField(max_length=255)
