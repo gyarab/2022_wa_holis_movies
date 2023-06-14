@@ -4,30 +4,35 @@
     name: Vykoupení z věznice Shawshank
     year: 1994
     description: Nejlépe hodnocený film
+    genres: [1]
 - model: films.movie
   pk: 2
   fields:
     name: Forrest Gump
     year: 1994
     description: Poněkud prostoduchý Forrest Gump, vyzbrojen užitečnými radami své matky, se vydává na pouť životem, který mu připraví nejedno překvapení. Mnoho hořkých, ale také nádherných chvil... Mladý muž jménem Forrest Gump sedí na zastávce autobusu a každému, kdo si přisedne, vypráví o svém životě. Poněkud jednoduchý chlapec se narodil v Alabamě, kde žil jen s matkou, která mu dala mnoho dobrých rad do života. Především tu, aby si nikdy nenechal od nikoho namluvit, že je jiný než ostatní. Dostala ho dokonce i do normální školy, přestože jí doporučovali zvláštní, vzhledem k jeho nízkému IQ...
+    genres: [1]
 - model: films.movie
   pk: 3
   fields:
     name: Zelená míle
     year: 1999
     description:  Paul Edgecomb se vrací ve vzpomínkách do roku 1935, kdy byl zaměstnán v louisianské věznici jako hlavní dozorce. Tenkrát se tam setkal s výjimečným, byť duchem prostým mužem, který byl obdařen nejen velkým srdcem, ale také nadpozemskými schopnostmi. Byl to John Coffey, neprávem odsouzený na smrt za vraždu dvou malých holčiček. V té době trpěl Paul těžkým zánětem močového měchýře a také neměl šanci zbavit se sadistického, všemi nenáviděného dozorce Percyho. Jednoho dne chce s Paulem mluvit Coffey. Když se k němu přiblíží, chytí ho rukou v rozkroku, pak šokovaného Paula pustí a on uvidí, jak černoch vypustil z úst černý oblak, a současně si uvědomí, že jeho bolestivý zánět zmizel. Coffey má zvláštní schopnost, díky které vyléčí ženu správce věznice, ke které ho tajně v noci převezou, dokonce oživí cvičenou myš jednoho vězně, kterou zabil zlomyslný Percy. John Coffey, kterého čeká smrt, přijímá svůj úděl odevzdaně a bez hořkosti.
+    genres: [1]
 - model: films.movie
   pk: 4
   fields:
     name: Sedm
     year: 1995
     description:  Dva policisté (Brad Pitt a Morgan Freeman) jsou na stopě geniálního vraha, zodpovědného za sérii děsivých vražd, jejichž oběti spojuje sedm smrtelných hříchů. V jedné z rolí tohoto kvalitního trhilleru, zasazeného do temného města nasáklého bolestí a zkázou, uvidíte také Gwyneth Paltrow. David Fincher (Klub rváčů, Zodiac, Podivuhodný případ Benjamina Buttona) s dokonalou znalostí našich nejhlubších obav pevně svírá otěže akce – fyzické, psychické i spirituální – neodvratně směřující k rozuzlení, které do hloubi otřese i tou nejzatvrzelejší duší.
+    genres: [3]
 - model: films.movie
   pk: 5
   fields:
     name: Přelet nad kukaččím hnízdem
     year: 1975
     description:  Předlohou k filmu Přelet nad kukaččím hnízdem byl režiséru Miloši Formanovi román Kena Keseyho, který ho psal při působení v „nemocnici pro veterány“. Snímek se stal největším mezinárodním úspěchem ve Formanově kariéře. V roce 1976 získal Oscara ve všech hlavních kategoriích – za nejlepší film, režii, mužský herecký výkon (Jack Nicholson), ženský herecký výkon (Louise Fletcherová) a scénář. Majitelem filmových a divadelních práv byl 13 let Kirk Douglas, který je postoupil svému synu Michaelovi a tím z něho udělal úspěšného producenta... Zrzavý irský rváč a profesionální karbaník Randle Patrick McMurphy si odpykává trest za opakované násilné napadení a sexuální zneužití. Místo aby se držel v pracovním táboře, hraje pomateného a nechá se poslat do zdánlivého klidu psychiatrické léčebny. Jeho životní elán a silná osobnost se v ústavu brzy střetávají s absolutismem vrchní sestry Ratchedové, která s pomocí trojice lapiduchů tyransky vládne celému ústavu. McMurphy nesnese pohled na ušlápnuté pacienty a brzy v nich probouzí poslední špetku hrdosti a radosti ze života. V zápasu s Velkou sestrou obrátí blázinec doslova vzhůru nohama. Stěny ústavu se otřásají jeho hřmotným smíchem a nespoutaným elánem. Vzpoura McMurphyho ale nemá velkou naději proti síle mašinérie zosobněné Velkou sestrou… Brilantní románová satira Kena Keseyho, mísící v sobě komiku i tragiku, přerůstá v neobyčejně působivém filmovém zpracování v silný protest proti neomezené moci a omezování každého člověka.
+    genres: [5]
 - model: films.movie
   pk: 6
   fields:
